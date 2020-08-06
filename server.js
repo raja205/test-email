@@ -16,8 +16,8 @@ app.post('/send-email', function (req, res) {
           port: 465,
           secure: true,
           auth: {
-              user: 'rajasen2093',
-              pass: 'raja@bannerghatta'
+              user: '***********', //sending email username
+              pass: '***********'  //seding email respective password
           }
       });
       let mailOptions = {
